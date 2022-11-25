@@ -13,5 +13,57 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Chapter01">
+      <UniqueIdentifier>{4ab70727-7df5-4d82-855e-4f89eec6323f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter02">
+      <UniqueIdentifier>{8ba8ea03-2679-4045-8c32-20f915ded0ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\executes">
+      <UniqueIdentifier>{fb5433e6-4fe1-4adb-a6a3-fbb13c8d6860}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LinearSearch.c">
+      <Filter>소스 파일\Chapter01</Filter>
+    </ClCompile>
+    <ClCompile Include="executes_ch01.h">
+      <Filter>소스 파일\executes</Filter>
+    </ClCompile>
+    <ClCompile Include="executes_ch01.c">
+      <Filter>소스 파일\executes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BinarySearch.c">
+      <Filter>소스 파일\Chapter01</Filter>
+    </ClCompile>
+    <ClCompile Include="BSWorstOpCount.c">
+      <Filter>소스 파일\Chapter01</Filter>
+    </ClCompile>
+    <ClCompile Include="executes_ch02.c">
+      <Filter>소스 파일\executes</Filter>
+    </ClCompile>
+    <ClCompile Include="RecursiveFactoral.c">
+      <Filter>소스 파일\Chapter02</Filter>
+    </ClCompile>
+    <ClCompile Include="FibonacciFunc.c">
+      <Filter>소스 파일\Chapter02</Filter>
+    </ClCompile>
+    <ClCompile Include="RecursiveBinarySearch.c">
+      <Filter>소스 파일\Chapter01</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="chapter01.h">
+      <Filter>소스 파일\Chapter01</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter02.h">
+      <Filter>소스 파일\Chapter02</Filter>
+    </ClInclude>
+    <ClInclude Include="executes_ch02.h">
+      <Filter>소스 파일\executes</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
