@@ -3,6 +3,6 @@
 #include "executes_ch03.h"
 
 int main(void) {
-	execute_ch02_p071();
+	execute_ch03_p085_MyTest();
 	return 0;
 }

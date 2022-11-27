@@ -63,6 +63,9 @@
     <ClCompile Include="executes_ch03.c">
       <Filter>소스 파일\Executes</Filter>
     </ClCompile>
+    <ClCompile Include="ArrayList.c">
+      <Filter>소스 파일\Chapter03</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter02.h">
@@ -79,6 +82,9 @@
     </ClInclude>
     <ClInclude Include="executes_ch03.h">
       <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayList.h">
+      <Filter>소스 파일\Chapter03</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
