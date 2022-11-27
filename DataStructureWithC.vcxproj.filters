@@ -19,8 +19,11 @@
     <Filter Include="소스 파일\Chapter02">
       <UniqueIdentifier>{8ba8ea03-2679-4045-8c32-20f915ded0ad}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\executes">
+    <Filter Include="소스 파일\Executes">
       <UniqueIdentifier>{fb5433e6-4fe1-4adb-a6a3-fbb13c8d6860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter03">
+      <UniqueIdentifier>{b0f3e709-9728-48cd-a99c-772edde8915f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -28,10 +31,10 @@
       <Filter>소스 파일\Chapter01</Filter>
     </ClCompile>
     <ClCompile Include="executes_ch01.h">
-      <Filter>소스 파일\executes</Filter>
+      <Filter>소스 파일\Executes</Filter>
     </ClCompile>
     <ClCompile Include="executes_ch01.c">
-      <Filter>소스 파일\executes</Filter>
+      <Filter>소스 파일\Executes</Filter>
     </ClCompile>
     <ClCompile Include="main.c">
       <Filter>소스 파일</Filter>
@@ -43,7 +46,7 @@
       <Filter>소스 파일\Chapter01</Filter>
     </ClCompile>
     <ClCompile Include="executes_ch02.c">
-      <Filter>소스 파일\executes</Filter>
+      <Filter>소스 파일\Executes</Filter>
     </ClCompile>
     <ClCompile Include="RecursiveFactoral.c">
       <Filter>소스 파일\Chapter02</Filter>
@@ -54,16 +57,28 @@
     <ClCompile Include="RecursiveBinarySearch.c">
       <Filter>소스 파일\Chapter01</Filter>
     </ClCompile>
+    <ClCompile Include="HanoiTowerSolu.c">
+      <Filter>소스 파일\Chapter02</Filter>
+    </ClCompile>
+    <ClCompile Include="executes_ch03.c">
+      <Filter>소스 파일\Executes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="chapter01.h">
-      <Filter>소스 파일\Chapter01</Filter>
-    </ClInclude>
     <ClInclude Include="chapter02.h">
       <Filter>소스 파일\Chapter02</Filter>
     </ClInclude>
     <ClInclude Include="executes_ch02.h">
-      <Filter>소스 파일\executes</Filter>
+      <Filter>소스 파일\Executes</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter01.h">
+      <Filter>소스 파일\Chapter01</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter03.h">
+      <Filter>소스 파일\Chapter03</Filter>
+    </ClInclude>
+    <ClInclude Include="executes_ch03.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

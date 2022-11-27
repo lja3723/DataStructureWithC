@@ -132,7 +132,9 @@
     <ClCompile Include="BSWorstOpCount.c" />
     <ClCompile Include="executes_ch01.c" />
     <ClCompile Include="executes_ch02.c" />
+    <ClCompile Include="executes_ch03.c" />
     <ClCompile Include="FibonacciFunc.c" />
+    <ClCompile Include="HanoiTowerSolu.c" />
     <ClCompile Include="LinearSearch.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="executes_ch01.h" />
@@ -142,7 +144,9 @@
   <ItemGroup>
     <ClInclude Include="chapter01.h" />
     <ClInclude Include="chapter02.h" />
+    <ClInclude Include="chapter03.h" />
     <ClInclude Include="executes_ch02.h" />
+    <ClInclude Include="executes_ch03.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

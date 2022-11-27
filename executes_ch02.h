@@ -4,5 +4,6 @@
 void execute_ch02_p055();
 void execute_ch02_p057();
 void execute_ch02_p063();
+void execute_ch02_p071();
 
 #endif

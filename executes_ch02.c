@@ -30,3 +30,7 @@ void execute_ch02_p063() {
 	else
 		printf("타겟 저장 인덱스: %d\n", idx);
 }
+void execute_ch02_p071() {
+	//막대 A의 원반 3개를 막대 B를 경우하여 막대 C로 옮기기
+	HanoiTowerMove(3, 'A', 'B', 'C');
+}

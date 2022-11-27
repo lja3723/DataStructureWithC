@@ -10,4 +10,7 @@ int Fibo(int n);
 //p.063
 int BSearchRecur(int ar[], int first, int last, int target);
 
+//p.071
+void HanoiTowerMove(int num, char from, char by, char to);
+
 #endif
